@@ -1,0 +1,13 @@
+package com.ozcelik.ecommerce.controller;
+
+import com.ozcelik.ecommerce.dao.ProductCategoryRepo;
+import com.ozcelik.ecommerce.dao.ProductRepo;
+
+public class ProductCategoryController {
+	
+	private ProductCategoryRepo categoryRepo;
+	
+	public ProductCategoryController(ProductCategoryRepo categoryRepo) {
+		this.categoryRepo = categoryRepo;
+	}
+}

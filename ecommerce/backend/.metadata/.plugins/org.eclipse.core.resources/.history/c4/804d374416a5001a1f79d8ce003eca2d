@@ -1,0 +1,5 @@
+package com.ozcelik.ecommerce.entity;
+
+public class Product {
+
+}

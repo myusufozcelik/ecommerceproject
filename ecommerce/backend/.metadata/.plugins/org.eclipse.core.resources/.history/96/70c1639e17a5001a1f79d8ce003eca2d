@@ -1,0 +1,5 @@
+package com.ozcelik.ecommerce.dao;
+
+public class ProductCategoryRepo {
+
+}

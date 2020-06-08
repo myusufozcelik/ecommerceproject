@@ -1,0 +1,20 @@
+package com.ozcelik.ecommerce;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
+import com.ozcelik.ecommerce.entity.Product;
+
+@SpringBootApplication
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+
+public class SpringBootEcommerceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootEcommerceApplication.class, args);
+
+	}
+
+}

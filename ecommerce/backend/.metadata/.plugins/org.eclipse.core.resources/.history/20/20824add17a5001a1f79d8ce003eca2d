@@ -1,0 +1,9 @@
+package com.ozcelik.ecommerce.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ozcelik.ecommerce.entity.ProductCategory;
+
+public interface ProductCategoryRepo extends JpaRepository<ProductCategory, Long> {
+
+}
